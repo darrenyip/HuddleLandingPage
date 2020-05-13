@@ -1,0 +1,105 @@
+@import 'src/sass/variables';
+// @import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet';
+
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    height: 800px;
+    background-color: $base-color;
+    background-image: url('src/assets/bg-desktop.svg');
+}
+.nav-bar{
+    padding: 5.2rem 5.4rem;;
+    .logo-container{
+        width: 200px;
+        height: 32px;
+        .logo{
+            width: 100%;
+            // height: 100%;
+        }
+    }
+}
+.main-body{
+    display: flex;
+    flex-direction: row;
+    width: 696px;
+    height: 493px;
+    .window-container{
+        img{
+            width: 696px;
+                height: 493px;
+        }
+        margin-left: 80px;
+        width: 100%;
+    }
+    .text-container{
+        margin-left: 59px;
+    }
+}
+
+.sub-title{
+    width: 520px;
+    margin-bottom: 24px;
+    p{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: white;
+    }
+}
+.title{
+    width: 487px;
+    height: 120px;
+    margin-bottom: 24px;
+    h1{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: white;
+    }
+}
+.register{
+    width: 200px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.258633);
+    border-radius: 28px;
+    
+    .register-btn{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color:  $base-color;
+        background: transparent;
+        border: none;
+        margin-top: 11px;
+        margin-left: 64px;
+        // transform: translateX(2%);
+    }
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    .social-media-container{
+        display: flex;
+        margin-right: 80px;
+        .social-media-icon-box{
+            width: 40px;
+            height: 40px;
+            margin-right: 16px;
+            border: 1.17647px solid #FFFFFF;
+            border-radius: 50px;
+            .social-icon{
+                margin-left: 8px;
+                margin-top: 7px;
+            }
+        }
+    }
+}

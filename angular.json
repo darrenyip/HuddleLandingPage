@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/sass/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "sass/styles.scss"
             ],
             "scripts": []
           }
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "huddle-landing-page"
+    }
+  },
+  "defaultProject": "huddle-landing-page",
+  "cli": {
+    "analytics": "89d92a52-8ef2-4736-9441-3f552a551e0d"
+  }
 }
