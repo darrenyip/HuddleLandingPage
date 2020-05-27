@@ -20,7 +20,7 @@ main{
     margin-bottom: 2.7rem;
 }
 .window-container{
-    width: 696px;
+    max-width: 696px;
     img{
         width: 100%;
     }
@@ -150,11 +150,78 @@ footer{
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    main{
+        margin-bottom: 6.4rem;
+    }
+    .container{
+        margin: 0 4rem;
+    }
+    .nav-bar .logo-container{
+        width: 120px;
+        height: 20px;
+        a{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+    .text-container {
+        .title{
+            h1{
+                font-weight: 600 !important;
+                font-size: 24px !important;
+                line-height: 36px !important;
+                text-align: center;
+            }
+        }
+        .sub-title{
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+            }
+        }
+        .register-new{
+            display: flex;
+            justify-content: center;
+            button{
+                height: 40px;
+            }
+        }
+    }
+    footer{
+        padding: 0 0;
+        .social-media-container{
+            display: flex;
+            justify-content: center;
+            .social-media-icon-box{
+                width: 27.5px;
+                height: 27.5px;
+                margin-right: 10.5px;
+            }
+        }
+    }
+    .fb-icon{
+        width: 11px;
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+    .twi-icon{
+        width: 16px;
+        margin-left: 5px;
+        margin-top: 6px;
+    }
+    .ins-icon{
+        width: 15px;
+        margin-left: 6px;
+        margin-top: 5px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -169,5 +236,8 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 }
