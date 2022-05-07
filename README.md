@@ -1,4 +1,4 @@
-# 用Angular创建的小页面 （2018年的老古董项目了）
+# 用Angular创建的小页面 （2020年的老古董项目了）
 https://huddle-landing-page-hazel.vercel.app/
 
 # HuddleLandingPage
